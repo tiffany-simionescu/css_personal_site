@@ -1,7 +1,14 @@
 /* Tag Selectors */
-
 body {
-    background-color: blue;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+div {
+    background-color: #E4F9F5;
 }
 
 /* Class Selectors */
