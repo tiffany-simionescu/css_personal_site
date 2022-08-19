@@ -31,10 +31,12 @@ h3 {
 }
 
 .bottom-container {
-    background-color: yellow;
-    border: 10px solid black;
-    height: 200px;
-    margin-left: 500px;
+
+}
+
+.profile-img,
+.skill-img {
+    border-radius: 50%;
     width: 200px;
 }
 
@@ -51,11 +53,7 @@ h3 {
 }
 
 .middle-container {
-    background-color: red;
-    border: 20px solid black;
-    height: 200px;
-    margin-left: 260px;
-    width: 200px;
+
 }
 
 /* ID Selectors */
