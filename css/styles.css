@@ -95,20 +95,22 @@ p {
     margin: 40px auto 60px auto;
 }
 
-.education-img-1,
-.experience-img-1 {
+.education-img-1 {
     border-radius: 50%;
     width: 25%;
     float: left;
     margin-right: 30px;
 }
 
-.education-img-2,
-.experience-img-2 {
+.education-img-2 {
     border-radius: 50%;
     width: 25%;
     float: right;
     margin-left: 30px;
+}
+
+.experience-paragraph {
+    margin-top: -18px;
 }
 
 .education-row,
@@ -116,6 +118,10 @@ p {
     margin: 100px auto;
     text-align: left;
     width: 50%;
+}
+
+.experience li {
+    line-height: 30px;
 }
 
 .footer-copy {
