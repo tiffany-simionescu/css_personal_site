@@ -95,6 +95,29 @@ p {
     margin: 40px auto 60px auto;
 }
 
+.education-img-1,
+.experience-img-1 {
+    border-radius: 50%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.education-img-2,
+.experience-img-2 {
+    border-radius: 50%;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.education-row,
+.experience-row {
+    margin: 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
 .footer-copy {
     color: #EAF6F6;
     font-size: 0.75rem;
@@ -126,24 +149,23 @@ p {
     width: 200px;
 }
 
-.skill-img-1 {
-    border-radius: 50%;
-    width: 25%;
-    float: left;
-    margin-right: 30px;
+.skill-left-list {
+    margin-right: 50px;
+    text-align: left;
+    width: 50%;
 }
 
-.skill-img-2 {
-    border-radius: 50%;
-    width: 25%;
-    float: right;
-    margin-left: 30px;
+.skill-right-list {
+    text-align: left;
 }
 
 .skill-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+    line-height: 40px;
     margin: 100px auto;
-    text-align: left;
-    width: 50%;
+    width: 25%;
 }
 
 .top-cloud {
