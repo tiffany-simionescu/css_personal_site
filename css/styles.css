@@ -79,6 +79,10 @@ p {
     text-decoration: none;
 }
 
+.github-btn {
+    width: 150px;
+}
+
 .bottom-cloud {
     position: absolute;
     left: 250px;
